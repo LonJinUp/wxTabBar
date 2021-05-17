@@ -1,0 +1,8 @@
+<view class="tabbar">
+  <view class="item {{index==idx?'active':''}}" wx:for="{{tabBar}}" wx:for-index="idx" bindtap="goto" data-index='{{idx}}'>
+    <i class="iconfont {{item.icon}} icon"></i>
+    <view class="text">{{item.name}}</view>
+  </view>
+  <view class="move" style="left:{{115+(index*210)}}rpx"></view>
+</view>
+

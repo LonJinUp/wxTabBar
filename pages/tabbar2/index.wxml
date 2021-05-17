@@ -1,0 +1,9 @@
+<view class="tabbar">
+  <view class="item" wx:for="{{tabBar}}" wx:for-index="idx" bindtap="goto" data-index='{{idx}}'>
+    <view class="move {{index==idx?'animation-target':''}}">
+      <i class="iconfont {{item.icon}} icon"></i>
+    </view>
+   
+
+  </view>
+</view>

@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/tabbar3/index",
+    "pages/tabbar2/index",
+    "pages/home/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "个性化的TabBar",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
